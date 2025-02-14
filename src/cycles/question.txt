@@ -20,4 +20,10 @@ De manière générale, lorsque l’annotation @Override est pertinente dans le 
 sence ? Dans ce cas, peut-on s’en dispenser ? Tester.
 
 L'annotation permet de prévenir des fautes d'orthographes et d'améliorer la lisibité du code.
+On peut s'en dispenser mais c'est mieux de l'utiliser.
 
+Ex.10)
+Que signifie l’appel super.getPuissane(FrequenceCoupsDePedale) dans la méthode
+VeloElec.getPuissane() ?
+
+L'appel super.getpuissance(FrequenceCoupsDePedale) dans la méthode VeloElec.getPuissane() sert à utiliser la logique de la classe mère pour calculer la puissance en fonction de la fréquence des coups de pédale
