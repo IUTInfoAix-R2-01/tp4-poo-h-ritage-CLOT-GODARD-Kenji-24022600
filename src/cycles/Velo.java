@@ -59,7 +59,7 @@ public class Velo {
 	}
 	
 	public String toString() {
-        return String.format("Vélo [Braquet: %.2f, DiamRoue: %.2f]", this.braquet, this.diamRoue);
+        return String.format("Velo [Braquet: %.2f, DiamRoue: %.2f]", this.braquet, this.diamRoue);
     }
 
     public double getPuissance(double frequenceCoupsDePedale) {
